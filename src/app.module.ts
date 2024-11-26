@@ -6,9 +6,9 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { RoomsModule } from './rooms/rooms.module';
 import { BookingModule } from './bookings/bookings.module';
-import { PaymentsModule } from './payments/payments.module';
 import { NotificationsModule } from './notifications/notifications.module';
 import { UsersModule } from './users/users.module';
+import { PaymentModule } from './payments/payments.module';
 
 @Module({
   imports: [
@@ -17,7 +17,7 @@ import { UsersModule } from './users/users.module';
     AuthModule,
     RoomsModule,
     BookingModule,
-    PaymentsModule,
+    PaymentModule,
     NotificationsModule,
     UsersModule, // MongoDB URI
   ],
