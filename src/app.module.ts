@@ -12,7 +12,7 @@ import { PaymentModule } from './payments/payments.module';
 
 @Module({
   imports: [
-    ConfigModule.forRoot(), // Load environment variables
+    ConfigModule.forRoot(),
     MongooseModule.forRoot(process.env.MONGO_URI),
     AuthModule,
     RoomsModule,
