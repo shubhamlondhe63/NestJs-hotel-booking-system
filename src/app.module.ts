@@ -19,7 +19,7 @@ import { PaymentModule } from './payments/payments.module';
     BookingModule,
     PaymentModule,
     NotificationsModule,
-    UsersModule, // MongoDB URI
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
